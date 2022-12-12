@@ -60,3 +60,5 @@ server.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`);
   console.log(`Url: http:localhost:${PORT}`);
 });
+
+module.exports = server;
